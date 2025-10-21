@@ -16,9 +16,7 @@ import typescript from '../assets/typescript.png'
 import { faBriefcase, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-interface Props {}
-
-const Portfolio = (props: Props) => {
+const Portfolio = () => {
   return (
     <>
       <section className=" h-screen pt-[100px]">

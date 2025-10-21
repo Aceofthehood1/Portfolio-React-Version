@@ -6,9 +6,8 @@ import { Typewriter } from "react-simple-typewriter";
 import { useState, useEffect } from "react";
 
 
-interface Props {}
 
-const HomePage = (props: Props) => {
+const HomePage = () => {
   const [showName, setShowName] = useState(false);
 
   useEffect(() => {
