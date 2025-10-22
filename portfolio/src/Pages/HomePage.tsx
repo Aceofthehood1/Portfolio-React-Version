@@ -38,7 +38,7 @@ const HomePage = () => {
           />
         </h1>
       )}
-          <hr className="border-2 text-red-600 mt-2 mb-2"></hr>
+          <hr className="border-1 text-red-600 mt-2 mb-2"></hr>
           <h2 className="text-3xl">Web Developer and Software Engineer</h2>
           <h2 className="text-xl mb-2" >Turning complex ideas into functional, scalable, and user-friendly software.</h2>
           <div className="flex flex-row gap-2 text-lg">

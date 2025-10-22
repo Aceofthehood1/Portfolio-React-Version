@@ -13,8 +13,9 @@ import sql from '../assets/sql.png'
 import python from '../assets/python.png'
 import bubble from '../assets/bubble.png'
 import typescript from '../assets/typescript.png'
-import { faBriefcase, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faLaptopCode, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Portfolio = () => {
   return (
@@ -22,10 +23,10 @@ const Portfolio = () => {
       <section className=" h-screen pt-[100px]">
         <div className="flex flex-col gap-8 sm:flex-row justify-center">
           <div className=" flex flex-col gap-2 max-w-[500px] p-4 sm:min-w-[600px]">
-            <h1 className="text-5xl mb-4 text-red-600">
-              <FontAwesomeIcon icon={faBriefcase} />
-              Experiences
+            <h1 className="text-5xl mb-4">
+              <FontAwesomeIcon icon={faBriefcase} />Experiences
             </h1>
+            <hr className="border-1 text-red-600 mb-2"></hr>
             <details className="collapse bg-base-100 border-red-300 border">
               <summary className="collapse-title font-semibold">
                 <span className=" text-xl text-red-600">Web Developer Intern</span>
@@ -75,15 +76,17 @@ const Portfolio = () => {
           </div>
 
           <div className="flex flex-col gap-2 max-w-[500px] p-4 sm:min-w-[600px]">
-            <h1 className="text-5xl mb-4 text-red-600">
+            <h1 className="text-5xl mb-4">
               <FontAwesomeIcon icon={faLaptopCode} />
               Projects
             </h1>
+            <hr className="border-1 text-red-600 mb-2"></hr>
             <details className="collapse bg-base-100 border-red-300 border">
               <summary className="collapse-title font-semibold">
-                <span className=" text-xl text-red-600">Multi-Restaurant Management System</span>
+                <span className=" text-xl text-red-600">Multi-Restaurant Management System <a className="text-black" href="https://github.com/Aceofthehood1/React-Restaurant-App" target="_blank"
+                rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></span>
                 <div className="flex justify-between">
-                  <span>React, Typescript, Express, MongoDB, Tailwind Css, Node js</span>
+                  <span>React, Typescript, Express, MongoDB, TailwindCSS, Node js</span>
                 </div>
               </summary>
                <div className="collapse-content text-sm pl-9">
@@ -110,7 +113,8 @@ const Portfolio = () => {
             </details>
              <details className="collapse bg-base-100 border-red-300 border">
               <summary className="collapse-title font-semibold">
-                <span className=" text-xl text-red-600">Vehicle Rental Management System</span>
+                <span className=" text-xl text-red-600">Vehicle Rental Management System <a className="text-black" href="https://github.com/Aceofthehood1/Vehicle-MVC-System" target="_blank"
+                rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></span>
                 <div className="flex justify-between">
                   <span>Java</span>
                 </div>
@@ -125,9 +129,10 @@ const Portfolio = () => {
             </details>
             <details className="collapse bg-base-100 border-red-300 border">
               <summary className="collapse-title font-semibold">
-                <span className=" text-xl text-red-600">UI Component Clipboard</span>
+                <span className=" text-xl text-red-600">UI Component Clipboard <a className="text-black" href="https://github.com/Aceofthehood1/Utility-Site" target="_blank"
+                rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></span>
                 <div className="flex justify-between">
-                  <span>Java</span>
+                  <span>Typescript, TailwindCSS</span>
                 </div>
               </summary>
                <div className="collapse-content text-sm pl-9">
@@ -142,8 +147,8 @@ const Portfolio = () => {
         </div>
         
         <div className="flex flex-col align-center justify-center p-12">
-          <h2 className="text-3xl text-center">Languages, Frameworks and Tools</h2>
-          <hr className="border-2 text-red-600 mt-2 mb-2"></hr>
+          <h2 className="text-3xl text-center"><FontAwesomeIcon icon={faScrewdriverWrench} />Languages, Frameworks and Tools</h2>
+          <hr className="border-1 text-red-600 mt-2 mb-2"></hr>
           <div className="grid grid-cols-3 lg:grid-cols-7 place-items-center gap-4">
             <img className="h-12 w-12 md:h-20 md:w-10 object-contain mx-auto" src={html} alt="HTML" />
             <img className="h-12 w-12 md:h-20 md:w-20 object-contain mx-auto" src={css} alt="CSS" />
