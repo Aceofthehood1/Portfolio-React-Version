@@ -39,8 +39,8 @@ const HomePage = () => {
         </h1>
       )}
           <hr className="border-1 text-red-600 mt-2 mb-2"></hr>
-          <h2 className="text-3xl">Web Developer and Software Engineer</h2>
-          <h2 className="text-xl mb-2" >Turning complex ideas into functional, scalable, and user-friendly software.</h2>
+          <h2 className="text-3xl">Web Developer</h2>
+          <h2 className="text-xl mb-2" >Turning complex ideas into functional, scalable, and user-friendly applications.</h2>
           <div className="flex flex-row gap-2 text-lg">
             <button className="bg-red-600 border-2 border-black rounded-lg text-white p-2">
               <Link to="/portfolio">

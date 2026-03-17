@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className="flex flex-col gap-8 sm:flex-row justify-center">
           <div className=" flex flex-col gap-2 max-w-[500px] p-4 sm:min-w-[600px]">
             <h1 className="text-5xl mb-4">
-              <FontAwesomeIcon icon={faBriefcase} />Experiences
+              <FontAwesomeIcon icon={faBriefcase} />Experience
             </h1>
             <hr className="border-1 text-red-600 mb-2"></hr>
             <details className="collapse bg-base-100 border-red-300 border">
@@ -132,7 +132,7 @@ const Portfolio = () => {
                 <span className=" text-xl text-red-600">UI Component Clipboard <a className="text-black" href="https://github.com/Aceofthehood1/Utility-Site" target="_blank"
                 rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></span>
                 <div className="flex justify-between">
-                  <span>Typescript, TailwindCSS</span>
+                  <span>React, Typescript, TailwindCSS</span>
                 </div>
               </summary>
                <div className="collapse-content text-sm pl-9">
