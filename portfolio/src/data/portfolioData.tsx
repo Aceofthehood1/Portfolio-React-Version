@@ -43,6 +43,14 @@ export interface Skill {
   className: string;
 }
 
+export type ProfileLinkId = "github" | "linkedin";
+
+export interface ProfileLink {
+  id: ProfileLinkId;
+  label: string;
+  url: string;
+}
+
 export const experiences: readonly Experience[] = [
   {
     id: "sap-investment-holdings",
@@ -282,4 +290,17 @@ export const skills: readonly Skill[] = [
   { name: "Typescript", imageSrc: typescript, className: "h-12 w-12 md:h-20 md:w-15 object-contain mx-auto" },
   { name: "Python", imageSrc: python, className: "h-12 w-12 md:h-20 md:w-15 object-contain mx-auto" },
   { name: "Bubble", imageSrc: bubble, className: "h-12 w-12 md:h-20 md:w-25 object-contain mx-auto" },
+];
+
+export const profileLinks: readonly ProfileLink[] = [
+  {
+    id: "github",
+    label: "Github",
+    url: "https://github.com/Aceofthehood1",
+  },
+  {
+    id: "linkedin",
+    label: "LinkedIn",
+    url: "https://www.linkedin.com/in/geoffrey-ameble/",
+  },
 ];
